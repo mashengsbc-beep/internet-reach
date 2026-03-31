@@ -40,10 +40,18 @@
 - 实用性评估
 - adopt / adapt / avoid 决策
 - 学习蒸馏与长期规则沉淀
+- 本地验证规则
+
+## 仓库结构
+
+- `SKILL.md`：主路由与工作流
+- `references/`：分主题参考资料
+- `internet-reach.skill`：可分发的打包产物
+- `CHANGELOG.md`：版本变更记录
+- `LICENSE`：开源许可
 
 ## 参考文件
 
-- `SKILL.md`：主路由与工作流
 - `references/github.md`：GitHub 研究
 - `references/web.md`：网页/文档阅读
 - `references/video.md`：视频与演示材料判断
@@ -56,6 +64,9 @@
 - `references/learning-distillation.md`：如何把研究变成长期能力
 - `references/scoring.md`：评分卡
 - `references/adoption-template.md`：落地建议模板
+- `references/validation.md`：验证规则
+- `references/case-study-agent-reach.md`：真实案例
+- `references/repo-analysis-template.md`：GitHub 项目分析模板
 
 ## 当前状态
 
@@ -69,8 +80,20 @@
 
 也就是说，这个技能不是只有“结构上合法”，而是已经验证过在当前环境里的核心路由是可用的。
 
-如果后续继续增强，建议优先补：
+## 推荐使用方式
 
-- 更多真实案例样式
+如果你要让智能体研究一个外部项目，优先让它：
+
+1. 先判断来源类型（GitHub / 官网 / 文档 / 视频 / 社区）
+2. 再选最低摩擦路径
+3. 最后输出 adopt / adapt / avoid 结论
+4. 如果要求“你也学一下”，再额外做学习蒸馏
+
+## 后续方向
+
+可以继续增强：
+
+- 更多真实案例
 - 更细的 GitHub 项目分析模板
 - 对不同来源（GitHub / 官网 / 文章 / 视频）的组合证据策略
+- 更细的项目评分标准
