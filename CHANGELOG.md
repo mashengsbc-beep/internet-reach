@@ -12,3 +12,4 @@
 - 第二阶段新增：按项目类型判断（platform/tool/scaffold）
 - 第二阶段新增：README 与实现现实的交叉验证规则
 - 第二阶段新增：多样本案例沉淀
+- 第二阶段新增：OpenClaw / Playwright MCP / OpenHands 三类案例评分样例
