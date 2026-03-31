@@ -97,3 +97,5 @@ When the user wants a decision, prefer a structured verdict:
 - `references/scoring.md` — lightweight practicality scorecard
 - `references/adoption-template.md` — concrete adopt/adapt/avoid output template
 - `references/validation.md` — how to verify the skill works in this environment
+- `references/project-types.md` — evaluate platforms, tools, and scaffolds differently
+- `references/readme-vs-reality.md` — how to cross-check polished positioning against implementation reality

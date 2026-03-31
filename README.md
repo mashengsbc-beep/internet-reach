@@ -65,6 +65,8 @@
 - `references/scoring.md`：评分卡
 - `references/adoption-template.md`：落地建议模板
 - `references/validation.md`：验证规则
+- `references/project-types.md`：按项目类型调整判断标准
+- `references/readme-vs-reality.md`：README 与实现现实的交叉验证
 - `references/case-study-agent-reach.md`：真实案例
 - `references/repo-analysis-template.md`：GitHub 项目分析模板
 
